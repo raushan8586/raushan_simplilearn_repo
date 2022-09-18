@@ -1,0 +1,47 @@
+
+    1  whoami
+    2  pwd
+    3  cd /
+    4  ls -l
+    5  pwd
+    6  mkdir simplilearn
+    7  ls -l
+    8  cd simplilearn/
+    9  pwd
+   10  uname -a
+   11  touch session1
+   12  ls -l
+   13  vi session1 
+   14  cat session1 
+   15  vi session1 
+   16  cat session1 
+   17  vi session1 
+   18  cat session1 
+   19  exit
+   20  pwd
+   21  cd /simplilearn/
+   22  ls -l
+   23  cd /etc
+   24  ls -l
+   25  cat group
+   26  cat /etc/group
+   27  cat /etc/passwd
+   28  cd /simplilearn/
+   29  ls -l
+   30  chmod u+x session1 
+   31  ls -l
+   32  chmod g+w session1 
+   33  ls -l
+   34  rm session1 
+   35  ls -l
+   36  cd ..
+   37  pwd
+   38  rmdir simplilearn/
+   39  ls -l
+   40  yum update
+   41  git --version
+   42  git
+   43  yum intall git
+   44  yum install git
+   45  git --version
+   46  history
