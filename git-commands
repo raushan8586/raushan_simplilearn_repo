@@ -1,3 +1,68 @@
-sudo su -
-yum install git
-git --version
+1  git --version
+    2  yum install git
+    3  git --version
+    4  history
+    5  pwd
+    6  mkdir project1
+    7  cd project1/
+    8  ls -l
+    9  ls -la
+   10  pwd
+   11  git init
+   12  ls -la
+   13  cd ..
+   14  mkdir project2
+   15  cd project2
+   16  ls -la
+   17  git clone https://github.com/raushan8586/raushan_simplilearn_repo.git
+   18  ls -la
+   19  raushan_simplilearn_repo/
+   20  cd raushan_simplilearn_repo/
+   21  ls -l
+   22  ls -la
+   23  cd ..
+   24  cd project1
+   25  ls -l
+   26  ls -la
+   27  ls
+   28  ls -la
+   29  ls -l
+   30  touch file1
+   31  vi file1
+   32  ls
+   33  ls -l
+   34  git status
+   35  cd ../project2/raushan_simplilearn_repo/
+   36  pwd
+   37  git status
+   38  cd ../../project1
+   39  ls -l
+   40  git status
+   41  git add file1
+   42  git status
+   43  git ls-files
+   44  touch file2
+   45  ls -l
+   46  git ls-files
+   47  git status
+   48  git commit -m "1st commit"
+   49  git status
+   50  git ls-files
+   51  git remote add origin https://github.com/raushan8586/raushan_simplilearn_repo.git
+   52  git branch
+   53  git branch app1 master
+   54  git branch
+   55  git checkout app1
+   56  git branch
+   57  git ls-files
+   58  git status
+   59  git checkout master
+   60  git branch
+   61  git push origin master
+   62  git branch
+   63  git status
+   64  git add file2
+   65  git commit -m "2nd commit"
+   66  git ls-files
+   67  git push origin master
+   68  history
