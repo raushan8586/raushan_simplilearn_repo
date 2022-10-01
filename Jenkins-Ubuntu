@@ -1,7 +1,7 @@
 sudo su -
 apt update
 
-apt install openjdk-8-jdk -y
+apt install openjdk-11-jre -y
 java -version
 
 wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
