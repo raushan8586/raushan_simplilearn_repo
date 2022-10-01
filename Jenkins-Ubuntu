@@ -18,3 +18,6 @@ systemctl status jenkins
 systemctl start jenkins
 
 
+To know which port, application is listening to in your linux server
+lsof -i -P -n | grep LISTEN
+
