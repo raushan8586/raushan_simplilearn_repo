@@ -14,3 +14,7 @@ apt update
 apt install jenkins
 systemctl status jenkins
 systemctl start jenkins
+
+
+Install Jenkins in CentOS
+https://www.redhat.com/sysadmin/install-jenkins-rhel8
