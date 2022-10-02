@@ -1,4 +1,5 @@
 https://www.jenkins.io/doc/book/installing/
+https://www.jenkins.io/doc/book/pipeline/
 
 sudo su -
 apt update
