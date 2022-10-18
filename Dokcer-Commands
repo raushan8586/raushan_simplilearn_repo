@@ -1,0 +1,37 @@
+root@ip-172-31-87-9:~# history
+    1  apt update
+    2  docker version
+    3  apt install docker.io
+    4  docker version
+    5  docker pull httpd
+    6  docker images
+    7  docker ps
+    8  docker run -it -d -p 82:80 httpd
+    9  docker ps
+   10  docker exec -it fcaa29dacbe3 /bin/bash
+   11  docker version
+   12  docker exec -it fcaa29dacbe3 /bin/bash
+   13  docker images
+   14  docker exec -it fcaa29dacbe3 /bin/bash
+   15  uname -a
+   16  docker exec -it fcaa29dacbe3 /bin/bash
+   17  docker ps
+   18  docker commit fcaa29dacbe3 httpd_new
+   19  docker images
+   20  docker ps
+   21  pwd
+   22  docker stop fcaa29dacbe3
+   23  docker ps
+   24  docker run -it -d -p 82:80 httpd_new
+   25  docker ps
+   26  docker exec -it a7a1e7acee8c /bin/bash
+   27  docker images
+   28  docker rmi httpd
+   29  docker rm httpd
+   30  docker ps -a
+   31  docker rm fcaa29dacbe3
+   32  docker ps -a
+   33  docker images
+   34  docker rmi httpd
+   35  docker images
+   36  history
