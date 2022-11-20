@@ -45,3 +45,7 @@
    44  yum install git
    45  git --version
    46  history
+top
+free -h
+df -h
+uptime
