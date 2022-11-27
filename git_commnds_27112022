@@ -1,0 +1,114 @@
+1  git version
+    2  yum install git
+    3  clear
+    4  git version
+    5  pwd
+    6  mkdir project1
+    7  cd project1/
+    8  pwd
+    9  ls -l
+   10  ls -la
+   11  pwd
+   12  ls -la
+   13  clear
+   14  git init
+   15  ls -l
+   16  ls -la
+   17  pwd
+   18  cd ..
+   19  mkdir project2
+   20  cd project
+   21  cd project2
+   22  ls -l
+   23  clear
+   24  pwd
+   25  ls -l
+   26  ls -la
+   27  git clone https://github.com/raushan8586/clone-demo.git
+   28  ls -l
+   29  cd clone-demo/
+   30  ls -l
+   31  ls -la
+   32  pwd
+   33  cd ..
+   34  ls -la
+   35  pwd
+   36  cd ../project1
+   37  clear
+   38  pwd
+   39  ls -la
+   40  cd ../project2
+   41  cd clone-demo/
+   42  ls -la
+   43  ls -l
+   44  git ls-files
+   45  cd ../../prpject1
+   46  cd ../../project1
+   47  clear
+   48  ls -l
+   49  touch sample1.txt
+   50  vi sample1.txt 
+   51  cat sample1.txt 
+   52  ls -l
+   53  git ls-files
+   54  git status
+   55  git branch
+   56  git branch b1 master
+   57  git status
+   58  clear
+   59  ls -l
+   60  git status
+   61  git add sample1.txt 
+   62  git status
+   63  git commit sample1.txt 
+   64  git commit sample1.txt "first-commit"
+   65  git ls-files
+   66  clear
+   67  touch sample2.txt
+   68  git status
+   69  git add sample2.txt
+   70  git status
+   71  git commit -m "first-commit"
+   72  git status
+   73  git ls-files
+   74  ls -l
+   75  clear
+   76  touch sample3.txt
+   77  vi sample3.txt 
+   78  git status
+   79  git add sample3.txt 
+   80  git status
+   81  git commit -m "2nd-commit"
+   82  git status
+   83  ls -l
+   84  git ls-files
+   85  clear
+   86  touch file1.txt
+   87  git add file1.txt 
+   88  git ls-files
+   89  git status
+   90  touch file2.txt
+   91  git ls-files
+   92  git restore --staged file1.txt 
+   93  git ls-files
+   94  git status
+   95  git ls-files
+   96  ls -l
+   97  git ls-files
+   98  git status
+   99  git add .
+  100  git status
+  101  git ls-files
+  102  git status
+  103  git commit -m "3rd-commit"
+  104  git status
+  105  git ls-files
+  106  pwd
+  107  ls -l
+  108  pwd
+  109  git push https://github.com/raushan8586/clone-demo.git
+  110  clear
+  111  git remote add origin https://github.com/raushan8586/clone-demo.git
+  112  git remote -v
+  113  git push origin master
+  114  history
