@@ -1,0 +1,12 @@
+Working Directory --> ls -l
+Staging Area --> git ls-files --> (changes to be committed)
+Local Repo --> git ls-files --> (git status is clean)
+
+
+Move local repo to remore repo
+-------------------------------
+git remore add origin https://github.com/raushan8586/clone-demo.git
+git remote -v
+
+
+git push origin master
