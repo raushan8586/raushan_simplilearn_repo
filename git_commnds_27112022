@@ -1,4 +1,5 @@
-1  git version
+[root@ip-172-31-88-192 project1]# history
+    1  git version
     2  yum install git
     3  clear
     4  git version
@@ -112,3 +113,89 @@
   112  git remote -v
   113  git push origin master
   114  history
+  115  clear
+  116  git log
+  117  git log --oneline
+  118  git branch
+  119  git branch b1 master
+  120  git branch
+  121  pwd
+  122  ls -la
+  123  git ls-files
+  124  git checkout b1
+  125  git branch
+  126  ls -l
+  127  git ls-files
+  128  touch app1
+  129  git add app1
+  130  git commit -m "app1-b1-commited"
+  131  git ls -files
+  132  git ls-files
+  133  git checkout master
+  134  git branch
+  135  git ls-files
+  136  pwd
+  137  git branch
+  138  git branch b2 master
+  139  git branch
+  140  git checkout b2
+  141  git branch
+  142  git log --oneline
+  143  git checkout b1
+  144  git log --oneline
+  145  git branch
+  146  git checkout master
+  147  fit branch
+  148  git branch
+  149  git log --oneline
+  150  git merge b1 master
+  151  git log --oneline
+  152  git ls-files
+  153  git remote -v
+  154  git push origin b1
+  155  ls -l
+  156  pwd
+  157  git branch
+  158  git checkout b1
+  159  ls -l
+  160  mkdir application1
+  161  cd application1
+  162  touch dev1
+  163  ls -la
+  164  cd ..
+  165  ls -l
+  166  git ls-files
+  167  git status
+  168  git add application1/
+  169  git status
+  170  git commit -m "b1-application1-folder-added"
+  171  git ls-files
+  172  ls -l
+  173  git checkout b2
+  174  git checkout master
+  175  git ls-files
+  176  git branch
+  177  ls -l
+  178  git ls-files
+  179  ls -l
+  180  rm file1.txt
+  181  ls -l
+  182  git ls-files
+  183  git status
+  184  ls -l
+  185  git restore file1.txt
+  186  ls -l
+  187  git status
+  188  git rm file.txt
+  189  git rm file1.txt
+  190  ls -l
+  191  git ls-files
+  192  git status
+  193  git restore --staged file1.txt
+  194  ls -l
+  195  git ls-files
+  196  git status
+  197  git restore file1.txt
+  198  ls -l
+  199  git ls-files
+  200  history
