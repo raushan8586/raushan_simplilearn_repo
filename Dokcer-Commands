@@ -90,3 +90,64 @@ root@ip-172-31-89-221:/# history
    46  docker ps -a
    47  docker images
    48  history
+   
+   
+   04-Dec-2022
+   
+   root@ip-172-31-84-8:~/project1# history
+    1  apt update
+    2  clear
+    3  apt install docker.io
+    4  clear
+    5  docker version
+    6  history
+    7  docker images
+    8  docker run -it -d -p 83:80 httpd
+    9  docker ps
+   10  clear
+   11  pwd
+   12  mkdir project1
+   13  cd project1/
+   14  pwd
+   15  touch Dockerfile
+   16  vi Dockerfile
+   17  docker ps
+   18  docker exec -it 0169e4c38728 /bin/bash
+   19  docker ps
+   20  docker rm -f 0169e4c38728
+   21  docker ps
+   22  docker ps -a
+   23  vi Dockerfile
+   24  touch index1.html
+   25  vi index1.html
+   26  ls -l
+   27  docker build . -t httpd1
+   28  docker images
+   29  docker run -itd -p 83:80 httpd1:latest
+   30  docker ps
+   31  docker exec -it 837518d1da77 /bin/bash
+   32  vi index1.html
+   33  cat Dockerfile
+   34  cat index1.html
+   35  history
+   36  cat Dockerfile
+   37  cat index1.html
+   38  ls -l
+   39  pwd
+   40  vi Dockerfile
+   41  docker ps
+   42  docker exec -it 837518d1da77 /bin/bash
+   43  history
+   44  cat Dockerfile
+   45  docker volume ls
+   46  docker volume create simpli-volume
+   47  docker volume ls
+   48  docker ps
+   49  docker rm -f 837518d1da77
+   50  docker run -it -d --mount source=simpli-volume,target=/usr/local/apache2/htdocs -p 83:80 httpd1
+   51  docker ps
+   52  docker exec -it 26732e223dc2 /bin/bash
+   53  docker run -it -d --mount source=simpli-volume,target=/usr/local/apache2/htdocs -p 84:80 httpd1
+   54  docker ps
+   55  docker exec -it 1ac708d769e6 /bin/bash
+   56  history
