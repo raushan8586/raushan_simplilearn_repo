@@ -179,3 +179,4 @@ root@ip-172-31-89-221:/# history
    80  docker stats
    81  docker ps
    82  history
+   docker-compose down
