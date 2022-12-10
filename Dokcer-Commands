@@ -180,3 +180,25 @@ root@ip-172-31-89-221:/# history
    81  docker ps
    82  history
    docker-compose down
+
+
+10-Dec
+docker pull httpd
+    7  docker images
+    8  docker login
+    9  docker images
+   10  docker image tag httpd:latest raushan8586/simplilearn10dec:latest
+   11  docker image push raushan8586/simplilearn10dec:latest
+   12  history
+
+ docker network ls
+   27  cat docker-compose.yaml
+   28  docker network inspect project1_default
+   29  docker ps
+   30  docker describe 4b33c4401489
+   31  docker inspect 4b33c4401489
+   32  docker ps
+   33  docker inspect 5f53c9c0afca
+   34  docker network ls
+   35  docker network inspect project1_default
+   36  history
