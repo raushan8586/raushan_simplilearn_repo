@@ -1,0 +1,7 @@
+gcloud container clusters create simplilearn-demo --num-nodes=2 --zone=us-central1-a
+kubectl get nodes
+
+kubectl apply -f <yamlfile>
+
+kubectl get pods
+kubectl get po -o wide
