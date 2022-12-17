@@ -1,0 +1,79 @@
+1  gcloud container clusters create cluster-demo --num-nodes=2
+    2  gcloud container clusters create cluster-demo --num-nodes=2 --zone=us-central1-a
+    3  kubectl get nodes
+    4  clear
+    5  pwd
+    6  ls -l
+    7  cd YAMLs/
+    8  ls -l
+    9  kubectl apply -f loadbalancer-service.yaml
+   10  kubectl get svc
+   11  kubectl delete -f loadbalancer-service.yaml
+   12  gcloud container clusters delete cluster-demo --num-nodes=2 --zone=us-central1-a
+   13  gcloud container clusters delete cluster-demo
+   14  gcloud container clusters delete cluster-demo --zone=us-central1-a
+   15  gcloud container clusters create simplilearn-demo --num-nodes=2 --zone-us-central1-a
+   16  gcloud container clusters create simplilearn-demo --num-nodes=2 --zone=us-central1-a
+   17  kubectl get nodes
+   18  gcloud container clusters get-credentials simplilearn-demo --zone us-central1-a --project avid-truth-371304
+   19  clear
+   20  ls -l
+   21  rm -rf YAMLs
+   22  ls -l
+   23  cat nginx-pod.yaml
+   24  kubectl apply -f nginx-pod.yaml
+   25  kubectl get pods
+   26  clear
+   27  kubectl get po -o wide
+   28  kubectl get nodes
+   29  kubectl get ns
+   30  kubctl create ns simplilearn
+   31  kubectl create ns simplilearn
+   32  kubectl get ns
+   33  kubectl get all
+   34  clear
+   35  kubectl get ns
+   36  kubectl get all -n default
+   37  kubectl get all -n kube-system
+   38  kubectl get ns
+   39  kubectl delete -f nginx-pod.yaml
+   40  gcloud container clusters delete --zone=us-central1-a
+   41  gcloud container clusters simplilearn-demo delete --zone=us-central1-a
+   42  gcloud container clusters delete simplilearn-demo  --zone=us-central1-a
+   43  gcloud container clusters create cluster-demo --num-nodes=2 --zone=us-central1-a
+   44  ls -l
+   45  cat nodeport-service.yaml
+   46  clear
+   47  ls -l
+   48  kubectl apply -f nodeport-service.yaml
+   49  kubectl get all
+   50  kubectl get po -o wide
+   51  kubectl get nodes -o wide
+   52  kubectl get all
+   53  kubectl delete -f nodeport-service.yaml
+   54  kubectl get all
+   55  ls -l
+   56  cat loadbalancer-service.yaml
+   57  ls -l
+   58  kubectl apply -f loadbalancer-service.yaml
+   59  kubectl get all
+   60  kubectl get svc
+   61  kubectl get pods
+   62  kubectl get pods -o wide
+   63  kubectl get nodes
+   64  kubectl get nodes -o wide
+   65  kubectl get rs
+   66  kubectl get po
+   67*
+   68  kubectl get po
+   69  kubectl get po -o wide
+   70  kubectl delete pod frontend-deployment-544d4cbccd-mmtbj frontend-deployment-544d4cbccd-qkv8f
+   71  kubectl get pods
+   72  kubectl get po -o wide
+   73  kubectl get svc
+   74  kubectl get nodes -o wide
+   75  cat loadbalancer-service.yaml
+   76  kubectl get deployment
+   77  kubectl scale deployment frontend-deployment --replicas=3
+   78  kubectl get pod -o wide
+   79  history
