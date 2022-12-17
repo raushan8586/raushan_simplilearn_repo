@@ -5,3 +5,16 @@ kubectl apply -f <yamlfile>
 
 kubectl get pods
 kubectl get po -o wide
+
+gcloud container clusters create cluster-demo --num-nodes=2 --zone=us-central1-a
+
+gcloud container clusters delete simplilearn-demo  --zone=us-central1-a
+
+kubectl get ns
+kubectl create ns simplilearn
+
+kubectl get all
+
+kubectl get all -n kube-system
+
+
