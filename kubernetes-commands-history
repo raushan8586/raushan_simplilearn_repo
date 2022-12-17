@@ -76,4 +76,5 @@
    76  kubectl get deployment
    77  kubectl scale deployment frontend-deployment --replicas=3
    78  kubectl get pod -o wide
-   79  history
+   79  kubectl scale deployment frontend-deployment --replicas=2
+   kubectl delete -f loadbalancer-service.yaml
