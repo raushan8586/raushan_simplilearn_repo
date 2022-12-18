@@ -1,0 +1,6 @@
+sudo su -
+visudo sudoers
+jenkins ALL=(ALL) NOPASSWD: ALL
+ctrl+o
+enter
+ctrl+x
