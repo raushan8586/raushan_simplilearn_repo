@@ -5,3 +5,13 @@
   tasks:
      - name: Install nginx
        apt: name=nginx state=latest
+     - name: Execute script on Server
+       script: test-script.sh
+- hosts: host2
+  name: Play 2
+  become: yes
+  tasks:
+     - name: Execute script on server
+       script: test-script.sh
+     - name: Install apache2
+       apt: name=apache2 state=latest
