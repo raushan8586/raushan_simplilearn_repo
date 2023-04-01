@@ -35,6 +35,7 @@ root@ip-172-31-87-9:~# history
    34  docker rmi httpd
    35  docker images
    36  history
+   37  docker run -d --name  container-name -p localhost:80:80 -v $HOME/myContainer/configDir:/myImage/configDir --restart=always image-name
 
 
 
